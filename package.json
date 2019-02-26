@@ -1,0 +1,28 @@
+{
+  "name": "hacc",
+  "version": "0.0.1",
+  "description": "Doin a hacc",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && cross-env NODE_ENV=production node .",
+    "dev": "tsc && cross-env NODE_ENV=development node .",
+    "test": "tsc && cross-env NODE_ENV=test node .",
+    "dist": "tsc"
+  },
+  "author": "envis10n",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^11.9.5",
+    "@types/uuid": "^3.4.4",
+    "@types/ws": "^6.0.1",
+    "arangojs": "^6.10.0",
+    "dotenv": "^6.2.0",
+    "ee-ts": "^1.0.1",
+    "uuid": "^3.3.2",
+    "ws": "^6.1.4"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "typescript": "^3.3.3333"
+  }
+}
