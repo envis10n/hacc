@@ -4,9 +4,9 @@
   "description": "Doin a hacc",
   "main": "dist/app.js",
   "scripts": {
-    "start": "tsc && cross-env NODE_ENV=production node .",
-    "dev": "tsc && cross-env NODE_ENV=development node .",
-    "test": "tsc && cross-env NODE_ENV=test node .",
+    "start": "tsc && cross-env NODE_ENV=production node -r dotenv/config .",
+    "dev": "tsc && cross-env NODE_ENV=development node -r dotenv/config .",
+    "test": "tsc && cross-env NODE_ENV=test node -r dotenv/config .",
     "dist": "tsc"
   },
   "author": "envis10n",
