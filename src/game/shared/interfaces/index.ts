@@ -1,0 +1,5 @@
+namespace Interfaces {
+
+}
+
+export = Interfaces;
